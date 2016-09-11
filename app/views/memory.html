@@ -1,0 +1,21 @@
+
+<div class="scoreboard">
+    Topscore: {{self.topscore}}
+    Clicks: {{self.clicks}}
+</div>
+
+<div class="gameboard">
+
+    <div class="mem-row" ng-repeat="row in self.rows">
+        <div class="mem-col" ng-repeat="btnCol in row">
+            <button class="btn-lg mem-btn"
+                    ng-disabled="self.foundBoth(btnCol.imgName)"
+                    ng-click="self.toggleBtn(btnCol.imgName, btnCol.id)">
+                <img class="mem-img"
+                     ng-show="self.showMe(btnCol.imgName, btnCol.id)"
+                     src="{{btnCol.imgName}}">
+            </button>
+        </div>
+    </div>
+
+</div>

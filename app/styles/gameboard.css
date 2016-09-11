@@ -1,0 +1,16 @@
+.gameboard{
+
+}
+
+.mem-row{
+    width: 100%;
+}
+
+.mem-col{
+width: 20%;
+}
+
+.mem-img{
+    width: 100px;
+    height: 100px;
+}
