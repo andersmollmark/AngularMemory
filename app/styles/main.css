@@ -101,8 +101,8 @@ body {
 }
 
 .mem-btn{
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
 }
 
 .gameboard{
@@ -113,4 +113,16 @@ body {
 .scoreboard{
   width: 20%;
   height: 100%;
+}
+
+
+.theBoard{
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+}
+
+.oneliner{
+  width: 100%;
+  display: inline-block;
 }
